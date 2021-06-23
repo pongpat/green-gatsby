@@ -1,7 +1,7 @@
 import React from "react"
-import {Link} from "gatsby"
+import Layout from '../components/layout'
 
-export default function Home() {
+/*export default function Home() {
   return (
   <div>
     <h1>Starter Gatsby site by Green!</h1>
@@ -15,4 +15,12 @@ export default function Home() {
     <Link to="/about">Go to About page.</Link>
   </div>
   )
+*/
+const IndexPage = () => {
+  return (
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
+  )
 }
+export default IndexPage

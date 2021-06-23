@@ -1,7 +1,7 @@
 import React from "react"
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-const About = () => (
+/*const About = () => (
 <div>
     <h1>ทดลองสร้างหน้า About Page</h1>
     โดยทำการสร้างไฟล์ชื่อ about.js ขึ้นมาในโฟลเดอร์ src/about.js
@@ -12,3 +12,13 @@ const About = () => (
 </div>
 )
 export default About
+*/
+const AboutPage = () => {
+  return (
+    <Layout pageTitle="About Me">
+    <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+  </Layout>
+  )
+}
+// Step 3: Export your component
+export default AboutPage
